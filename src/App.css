@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.center-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.center-between{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start-center{
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.start-between{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+ 
+h2{
+    font-size: 1.75rem;
+}
+
+section{
+    padding: 3rem 1rem;
+}
