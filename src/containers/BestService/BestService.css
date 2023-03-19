@@ -1,0 +1,55 @@
+#bestService{
+    background: rgba(0, 88, 83, 0.05);
+    position: relative;
+}
+
+#bestService img{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-box{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.heading-box p{
+    font-size: 0.75rem;
+    max-width: 550px;
+    margin-inline: auto;
+    margin-top: 1rem;
+    line-height: 1.5em;
+}
+
+.best-service-wrap{
+    max-width: 1408px;
+    width: 100%;
+    margin-inline: auto;
+    gap: 1rem;
+}
+
+.best-service-box{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    z-index: 3;
+}
+
+.best-service-box span{
+    margin-bottom: 1rem;
+}
+
+.best-service-box h4{
+    font-size: 1.85rem;
+    margin-bottom: 0.25rem;
+}

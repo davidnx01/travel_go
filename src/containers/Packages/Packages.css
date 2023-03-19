@@ -1,0 +1,50 @@
+#packages{
+    background: #ECF1F0;
+}
+
+.packages_wrap{
+    max-width: 1450px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.packages_tabs{
+     width: 100%;
+}
+
+.packages_tabs button{
+    width: 180px;
+    height: 60px;
+    background: #666666;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.packages_tabs button.active-tab {
+    background-color: #00A651;
+}
+
+.packages_tabs button:hover{
+    background-color: #00A651;
+}
+
+.packages_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.pgc{
+    width: 100%;
+}

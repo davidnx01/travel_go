@@ -1,5 +1,7 @@
+import React from "react";
 import "./App.css";
 import "./index.css";
+import { Navbar, HeroContent, OurService, BestService, Destinations, Packages, Book, Testimonial, Newsletter, Footer } from "./containers";
 
 function App() {
   return (

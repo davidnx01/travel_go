@@ -1,0 +1,33 @@
+.header-content{
+    padding-inline: 1.5rem;
+    margin-inline: auto;
+    margin-top: 12rem;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+}
+
+.header-content p{
+    max-width: 560px;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 1.75rem;
+    font-size: .75rem;
+}
+
+.header-content button{
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+}

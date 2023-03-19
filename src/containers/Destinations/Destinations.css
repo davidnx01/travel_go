@@ -1,0 +1,19 @@
+#destinations{
+    position: relative;
+    width: 100%;
+}
+
+.destinations-wrap{
+    max-width: 1410px;
+    width: 100%;
+    margin: 3.5rem auto 2.5rem;
+}
+
+.destinations_right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 800px;
+}
