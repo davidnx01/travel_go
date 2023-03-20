@@ -1,0 +1,28 @@
+.footer-navigation{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.footer-navigation ul{
+    list-style: none;
+}
+
+.footer_inner-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_inner-nav h4{
+    margin-bottom: 2.5rem;
+}
+
+.footer_inner-nav ul li{
+    margin-bottom: 1.125rem;
+}
+
+.footer_inner-nav ul li a{
+    color: #5E6282;
+    text-decoration: none;
+}

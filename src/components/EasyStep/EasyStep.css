@@ -1,0 +1,48 @@
+.easy-step_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+    gap: 1.125rem;
+}
+
+.easy-step_left-side__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: #006380;
+    border-radius: 10px;
+}
+
+.easy-step_right-side h4{
+    margin-bottom: 0.25rem;
+    font-size: .725rem;
+    color: #5E6282;
+}
+
+.easy-step_right-side p{
+    padding-right: 2rem;
+    font-size: 0.725rem;
+    color: #5E6282;
+}
+
+.book-relative {
+    position: relative;
+    z-index: 2;
+}
+
+.book-relative img{
+    z-index: 3;
+    position: relative;
+}
+
+.book-elipse img{
+    position: absolute;
+    top: -150px;
+    right: -20px;
+    z-index: 0;
+    opacity: .75;
+}

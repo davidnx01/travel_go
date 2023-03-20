@@ -1,0 +1,98 @@
+.newsletter-card{
+    max-width: 1257px;
+    width: 100%;
+    padding: 4rem 1.725rem;
+    background-color: #a2ffec5d;
+    position: relative;
+    border-radius: 20px;
+    border-top-left-radius: 130px;
+    margin-inline: auto;
+}
+
+.newsletter-card_top-right__design{
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    height: 70px;
+    width: 70px;
+    background: linear-gradient(201.65deg, #32DF8F 10.27%, #005F15 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-card p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.45em;
+    margin-bottom: 4rem;
+    max-width: 750px;
+    margin-inline: auto;
+}
+
+.newsletter__email-input{
+    position: relative;
+
+}
+
+form{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.newsletter__email-input{
+    position: relative;
+    height: 70px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.newsletter__email-input_icon{
+    position: absolute;
+    left: 30px;
+    top:50%;    
+    transform: translateY(-50%);
+}
+
+.newsletter__email-input input{
+    height: 100%;
+    padding-left: 3rem;
+    font-size: 0.625rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+::placeholder{
+    color: #39425D;
+}
+
+.button_input{
+    height: 100%;
+    width: 100%;
+    max-width: 180px;
+    background: #00A651;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.775rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.newsletter-card_bottom-right__design{
+    position: absolute;
+    bottom: -80px;
+    right: -100px;
+}
